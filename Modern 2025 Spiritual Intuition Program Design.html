@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual Intuition Development Program - Personalized for Mary Ann</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+        :root {
+            --primary-color: #526088;
+            --primary-dark: #3A4562;
+            --secondary-color: #9473a6;
+            --secondary-light: #b69df8;
+            --accent-color: #c6a76e;
+            --coral-color: #d77d63;
+            --bg-color: #f8f5ff;
+            --light-bg: #f0ebfc;
+            --dark-text: #333;
+            --light-text: #fff;
+            --border-radius: 16px;
+            --box-shadow: 0 10px 30px rgba(82, 96, 136, 0.15);
+            --glass-effect: backdrop-filter: blur(10px) saturate(180%);
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: 1px solid rgba(255, 255, 255, 0.18);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', 'Avenir', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: #f5f5f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+        }
+
+        /* Header styles */
+        .header {
+            position: relative;
+            padding: 0;
+            height: 360px;
+            overflow: hidden;
+        }
+
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(82, 96, 136, 0.9) 0%, rgba(148, 115, 166, 0.8) 100%);
+            z-index: 1;
+        }
+
+        .header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://placehold.co/900x360/3A4562/3A4562');
+            background-size: cover;
+            background-position: center;
+            filter: blur(1px);
+            transform: scale(1.03);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 60px 40px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-logo {
+            margin-bottom: 20px;
+            max-width: 120px;
+            height: auto;
+        }
+
+        .header-badge {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--light-text);
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-transform: uppercase;
+        }
+
+        .program-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 600;
+            color: var(--light-text);
+            margin: 0 0 15px;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 22px;
+            font-weight: 400;
+            color: var(--light-text);
+            opacity: 0.95;
+            margin-top: 5px;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .floating-elements {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .floating-element {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
+            animation: float 8s infinite linear;
+        }
+
+        .floating-element:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            width: 120px;
+            height: 120px;
+            animation-duration: 25s;
+        }
+
+        .floating-element:nth-child(2) {
+            top: 60%;
+            left: 80%;
+            width: 100px;
+            height: 100px;
+            animation-duration: 28s;
+            animation-delay: 3s;
+        }
+
+        .floating-element:nth-child(3) {
+            top: 75%;
+            left: 20%;
+            width: 60px;
+            height: 60px;
+            animation-duration: 20s;
+            animation-delay: 2s;
+        }
+
+        .floating-element:nth-child(4) {
+            top: 30%;
+            left: 70%;
+            width: 90px;
+            height: 90px;
+            animation-duration: 22s;
+            animation-delay: 5s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            25% { transform: translate(10px, -10px) rotate(5deg); }
+            50% { transform: translate(0, -15px) rotate(0deg); }
+            75% { transform: translate(-10px, -10px) rotate(-5deg); }
+            100% { transform: translate(0, 0) rotate(0deg); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Content styles */
+        .content {
+            padding: 50px;
+            position: relative;
+        }
+
+        .greeting {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--primary-color);
+            font-size: 32px;
+            font-weight: 600;
+            margin: 50px 0 25px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--secondary-color), transparent);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-color);
+            font-size: 26px;
+            font-weight: 500;
+            margin: 35px 0 20px;
+        }
+
+        /* Session timeline styles */
+        .session-container {
+            background-color: var(--light-bg);
+            border-radius: var(--border-radius);
+            padding: 40px;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .session-container h3 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .session-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .session-item {
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(82, 96, 136, 0.08);
+            transition: var(--transition);
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .session-item:nth-child(1) { animation-delay: 0.2s; }
+        .session-item:nth-child(2) { animation-delay: 0.4s; }
+        .session-item:nth-child(3) { animation-delay: 0.6s; }
+        .session-item:nth-child(4) { animation-delay: 0.8s; }
+
+        .session-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(82, 96, 136, 0.12);
+        }
+
+        .session-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            color: white;
+            font-size: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .session-icon::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(45deg);
+            animation: shimmer 3s infinite linear;
+        }
+
+        @keyframes shimmer {
+            from { transform: translateX(-100%) rotate(45deg); }
+            to { transform: translateX(100%) rotate(45deg); }
+        }
+
+        .session-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .session-duration {
+            color: #666;
+            font-size: 15px;
+        }
+
+        /* Module card styles */
+        .modules-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .module:nth-child(1) { animation-delay: 0.2s; }
+        .module:nth-child(2) { animation-delay: 0.4s; }
+        .module:nth-child(3) { animation-delay: 0.6s; }
+        .module:nth-child(4) { animation-delay: 0.8s; }
+        .module:nth-child(5) { animation-delay: 1s; }
+
+        .module {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+
+        .module:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(82, 96, 136, 0.2);
+        }
+
+        .module::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            z-index: 1;
+        }
+
+        .module-header {
+            padding: 25px 30px;
+            background-color: var(--light-bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .module-number {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 100px;
+            font-weight: 600;
+            color: rgba(82, 96, 136, 0.1);
+            line-height: 1;
+        }
+
+        .module-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .module-subtitle {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 16px;
+            color: var(--secondary-color);
+            margin-top: 5px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .module-content {
+            padding: 30px;
+        }
+
+        .section-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .module-box {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: '✦';
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+            font-size: 14px;
+        }
+
+        /* Investment box styles */
+        .investment-box {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #53487a 100%);
+            border-radius: var(--border-radius);
+            padding: 50px;
+            margin: 60px 0;
+            color: var(--light-text);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .investment-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://placehold.co/900x400/3A4562/3A4562');
+            background-size: cover;
+            opacity: 0.1;
+            mix-blend-mode: overlay;
+        }
+
+        .investment-box h2 {
+            color: white;
+            text-align: center;
+            border-bottom: none;
+            margin-top: 0;
+            position: relative;
+        }
+
+        .investment-box h2::after {
+            background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+            width: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .price-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .price-option {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .price-option:nth-child(1) { animation-delay: 0.3s; }
+        .price-option:nth-child(2) { animation-delay: 0.6s; }
+
+        .price-option:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .price-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .price {
+            font-size: 48px;
+            font-weight: 300;
+            color: white;
+            margin: 15px 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .price-description {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+        }
+
+        .discount {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: rgba(198, 167, 110, 0.2);
+            color: #e2c794;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .price-option ul {
+            text-align: left;
+            margin-top: 25px;
+        }
+
+        .price-option li {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .price-option li::before {
+            content: '✓';
+            color: var(--accent-color);
+        }
+
+        /* Quote styles */
+        .quote-container {
+            position: relative;
+            padding: 60px 0;
+        }
+
+        .quote {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 24px;
+            line-height: 1.6;
+            color: var(--primary-color);
+            text-align: center;
+            max-width: 80%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote::before, .quote::after {
+            font-family: 'Playfair Display', serif;
+            font-size: 120px;
+            position: absolute;
+            opacity: 0.1;
+            color: var(--secondary-color);
+            line-height: 0;
+            z-index: -1;
+        }
+
+        .quote::before {
+            content: '"';
+            left: -30px;
+            top: 20px;
+        }
+
+        .quote::after {
+            content: '"';
+            right: -30px;
+            bottom: -30px;
+        }
+
+        /* Signature styles */
+        .signature {
+            text-align: right;
+            margin: 60px 0 30px;
+        }
+
+        .signature p {
+            margin: 5px 0;
+        }
+
+        .signature-logo {
+            text-align: right;
+            margin-bottom: 15px;
+        }
+
+        .signature-logo img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        .signature-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 30px;
+            color: var(--primary-color);
+            margin-top: 10px;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: var(--primary-dark);
+            padding: 40px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header {
+                height: 300px;
+            }
+
+            .header-content {
+                padding: 40px 20px;
+            }
+
+            .program-title {
+                font-size: 32px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .content {
+                padding: 30px;
+            }
+
+            .modules-container {
+                grid-template-columns: 1fr;
+            }
+
+            .session-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .price-options {
+                grid-template-columns: 1fr;
+            }
+
+            .price-option {
+                margin-bottom: 20px;
+            }
+
+            .session-container {
+                padding: 30px;
+            }
+
+            .quote {
+                font-size: 20px;
+                max-width: 90%;
+            }
+
+            .quote::before, .quote::after {
+                font-size: 80px;
+            }
+
+            .investment-box {
+                padding: 30px;
+            }
+
+            .signature-logo img {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-bg"></div>
+            <div class="header-overlay"></div>
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+            <div class="header-content">
+                <img src="Web/Bilal Machraa - simbolo 6 sem fundo.png" alt="Bilal Machraa Logo" class="header-logo">
+                <div class="header-badge">Personalized Spiritual Development Program</div>
+                <h1 class="program-title">Spiritual Intuition Development</h1>
+                <div class="subtitle">A Transformative Journey by Bilal Machraa</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p class="greeting">Dear Mary Ann,</p>
+
+            <p>Thank you for sharing your spiritual aspirations with me. I'm honored to present this customized training program designed specifically to help you deepen your intuitive gifts and strengthen your connection to the divine.</p>
+
+            <p>Drawing from our conversation about your spiritual journey, I've crafted a progressive program that builds upon your existing foundation while introducing powerful new techniques for soul connection.</p>
+
+            <h3>Your Unique Journey: The Path of Intuitive Awakening</h3>
+
+            <p>This program transforms our comprehensive 16-hour workshop into an intimate, personalized experience tailored to your specific gifts and challenges. You can choose the pace that feels right for you, with flexible scheduling options to support your spiritual growth.</p>
+
+            <h2>The Heart-Centered Approach</h2>
+
+            <p>Our work together will focus on the heart chakra as the primary channel for intuitive development. The heart serves as the bridge between dimensions and provides the safest, most balanced pathway for receiving guidance.</p>
+
+            <div class="session-container">
+                <h3>Each 90-minute session combines:</h3>
+
+                <div class="session-grid">
+                    <div class="session-item">
+                        <div class="session-icon">
+                            <i class="fas">↻</i>
+                        </div>
+                        <div class="session-title">Energy Alignment</div>
+                        <div class="session-duration">20 minutes</div>
+                    </div>
+
+                    <div class="session-item">
+                        <div class="session-icon">
+                            <i class="fas">💡</i>
+                        </div>
+                        <div class="session-title">Technique Introduction</div>
+                        <div class="session-duration">30 minutes</div>
+                    </div>
+
+                    <div class="session-item">
+                        <div class="session-icon">
+                            <i class="fas">👐</i>
+                        </div>
+                        <div class="session-title">Guided Practice</div>
+                        <div class="session-duration">30 minutes</div>
+                    </div>
+
+                    <div class="session-item">
+                        <div class="session-icon">
+                            <i class="fas">📖</i>
+                        </div>
+                        <div class="session-title">Integration</div>
+                        <div class="session-duration">10 minutes</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Your Development Path: Six Core Modules</h2>
+
+            <p>Rather than being tied to a specific timeline, we'll work through these six core modules at the pace that serves your development best. You can choose to schedule sessions monthly or bi-monthly (twice per month) depending on how quickly you wish to progress and how much integration time you need between sessions.</p>
+
+            <div class="modules-container">
+                <!-- Module 1 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">1</div>
+                        <h4 class="module-title">Foundation & Energy Clearing</h4>
+                        <p class="module-subtitle">Creating Sacred Space Within</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>The Circle of Trust technique for establishing energetic boundaries and protection</li>
+                                <li>The powerful Violet Pot method for transmuting challenging energies</li>
+                                <li>How to access the "Cancelled Dance" to release old patterns and contracts</li>
+                                <li>Personalized energy assessment to identify your unique intuitive strengths</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>The ability to create energetic safety in any environment</li>
+                                <li>Tools to quickly release emotional blocks that hinder intuition</li>
+                                <li>A clear understanding of your personal intuitive style and strengths</li>
+                                <li>Deeper connection to your physical body as an intuitive instrument</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">2</div>
+                        <h4 class="module-title">Developing the Inner Ear</h4>
+                        <p class="module-subtitle">Learning to Listen Beyond Words</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>Activation techniques for the Inner Ear through heart-centered practices</li>
+                                <li>The "Always Standing" kinesiology method for receiving yes/no guidance</li>
+                                <li>Powerful exercises to identify and clear fear patterns that block reception</li>
+                                <li>How to distinguish between intuitive knowing and mental chatter</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>Clear communication channels for receiving divine guidance</li>
+                                <li>Confidence in your ability to receive accurate yes/no answers</li>
+                                <li>Liberation from fear-based blocks to your intuitive gifts</li>
+                                <li>The ability to physically feel the difference between truth and falsehood</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">3</div>
+                        <h4 class="module-title">Connecting with Your Soul's Lineage</h4>
+                        <p class="module-subtitle">Establishing Your Divine Support Team</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>Sacred initiation connecting you with your Soul Communication Lineage</li>
+                                <li>Special techniques to activate the Pegasus and Horse Lineage energy for enhanced intuitive flow</li>
+                                <li>Ancient methods for identifying your personal guides and teachers</li>
+                                <li>How to establish clear communication protocols with your divine team</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>Direct access to your soul's wisdom and guidance</li>
+                                <li>Connection with spiritual guides specifically assigned to your development</li>
+                                <li>Enhanced intuitive flow and synchronicity in your daily life</li>
+                                <li>The ability to receive higher wisdom without mental interference</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">4</div>
+                        <h4 class="module-title">The Six Senses of the Heart</h4>
+                        <p class="module-subtitle">Expanding Your Perceptual Field</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>Activation of all six heart-centered senses (including the traditional five plus intuition)</li>
+                                <li>Advanced techniques for working with the energy in your hands as intuitive receivers</li>
+                                <li>Methods for navigating "portals" during intuitive work</li>
+                                <li>How to integrate multiple sensory inputs into clear intuitive messages</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>Expanded sensory perception beyond the physical realm</li>
+                                <li>The ability to receive guidance through multiple channels simultaneously</li>
+                                <li>Greater confidence in navigating altered states of consciousness</li>
+                                <li>Enhanced sensitivity in your hands for energy work and healing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">5</div>
+                        <h4 class="module-title">Channeling Development</h4>
+                        <p class="module-subtitle">Becoming a Clear Channel</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>Heart-centered channeling techniques tailored to your energy system</li>
+                                <li>Psychography (automatic writing) methods for clear reception</li>
+                                <li>Voice channeling introduction with personalized guidance</li>
+                                <li>Discernment practices to ensure the highest quality of connection</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>The ability to receive extended messages and guidance</li>
+                                <li>Tools for documenting and interpreting channeled information</li>
+                                <li>Confidence in sharing divine wisdom when appropriate</li>
+                                <li>Clear boundaries and protection during channeling work</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="module">
+                    <div class="module-header">
+                        <div class="module-number">6</div>
+                        <h4 class="module-title">Integration and Mastery</h4>
+                        <p class="module-subtitle">Living as an Intuitive Being</p>
+                    </div>
+
+                    <div class="module-content">
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">🎓</i> What You'll Learn:
+                            </div>
+                            <ul>
+                                <li>Advanced techniques for maintaining clear connection in daily life</li>
+                                <li>Methods for working with magical beings (Devas and nature spirits)</li>
+                                <li>How to create your personalized, sustainable intuitive practice</li>
+                                <li>Integration of intuitive guidance into practical decision-making</li>
+                            </ul>
+                        </div>
+
+                        <div class="module-box">
+                            <div class="section-title">
+                                <i class="fas">💎</i> What You'll Gain:
+                            </div>
+                            <ul>
+                                <li>A complete, personalized system for ongoing intuitive development</li>
+                                <li>The ability to access guidance in any circumstance</li>
+                                <li>Harmony between your intuitive gifts and everyday responsibilities</li>
+                                <li>A deeper connection to the natural and spiritual worlds around you</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Between-Session Support</h2>
+
+            <ul>
+                <li>Personalized guided meditations recorded specifically for your practice</li>
+                <li>Email support for questions that arise during your practice</li>
+                <li>Access to a private journal-sharing platform for feedback on your experiences</li>
+            </ul>
+
+            <div class="investment-box">
+                <div class="investment-bg"></div>
+                <h2>Investment Options</h2>
+
+                <div class="price-options">
+                    <div class="price-option">
+                        <div class="price-title">Individual Sessions</div>
+                        <div class="price">144€</div>
+                        <div class="price-description">per session</div>
+                    </div>
+
+                    <div class="price-option">
+                        <div class="price-title">Complete Package</div>
+                        <div class="price">777€ <span class="discount">10% off</span></div>
+                        <div class="price-description">Payment options available</div>
+                        <ul>
+                            <li>Pay in full or in two installments</li>
+                            <li>All support materials and between-session guidance included</li>
+                            <li><strong>Bonus:</strong> One 30-minute emergency session if needed</li>
+                            <li>Personalized portal access for session recordings and materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Flexible Scheduling</h2>
+
+            <p>You can choose the pace that works best for your spiritual development:</p>
+
+            <ul>
+                <li>Monthly sessions (one session per month) for a more gradual integration</li>
+                <li>Bi-monthly sessions (two sessions per month) for accelerated development</li>
+                <li>Or a combination that adapts to your changing needs and schedule</li>
+            </ul>
+
+            <h2>A Personal Invitation</h2>
+
+            <p>Mary Ann, based on what you've shared about feeling the energy in your hands and your desire to thin the veil between worlds, I believe you're already walking a path of profound spiritual connection. This program isn't about giving you something you don't have—it's about helping you recognize, trust, and expand the gifts already within you.</p>
+
+            <p>The thinning of the veil you seek isn't about forcing your way through—it's about gently dissolving the barriers you've unconsciously created for protection. Together, we'll create a safe container for your intuition to flourish while maintaining healthy boundaries.</p>
+
+            <p>I would be honored to accompany you on this sacred journey of discovery. The first step is a complimentary 30-minute consultation to discuss which approach feels most aligned with your needs and to answer any questions you might have.</p>
+
+            <div class="quote-container">
+                <div class="quote">
+                    "The heart knows what the mind cannot see and the hands can feel what the eyes cannot perceive. Your intuition is not something to find—it is something to remember."
+                </div>
+            </div>
+
+            <div class="signature">
+                <div class="signature-logo">
+                    <img src="Web/Bilal Machraa - marca secundaria 1.png" alt="Transformação Multidimensional Logo">
+                </div>
+                <p>With deep respect for your spiritual path,</p>
+             
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Spiritual Intuition Development Program</p>
+        </div>
+    </div>
+</body>
+</html>
